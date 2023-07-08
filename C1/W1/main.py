@@ -10,7 +10,7 @@ def house_model():
     # Define input and output tensors with the values for houses with 1 up to 6 bedrooms
     # Hint: Remember to explictly set the dtype as float
     xs = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], dtype=float)
-    ys = np.array([100.0, 150.0, 200.0, 250.0, 300.0, 350.0], dtype=float)
+    ys = np.array([1.0, 1.5, 2.0, 2.5, 3.0, 3.5], dtype=float)
 
     # Define your model (should be a model with 1 dense layer and 1 unit)
     # Note: you can use `tf.keras` instead of `keras`
