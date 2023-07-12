@@ -9,5 +9,5 @@ You can play around with examples though.
 ## How to use
 
 ```
-    docker run -it --rm -v $(pwd):/W2 tensorflow/tensorflow python W2/main.py
+    tf_assignments/C1/W2$ docker run -it --rm -v $(pwd):/W2 tensorflow/tensorflow python W2/main.py
 ```
